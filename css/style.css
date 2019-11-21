@@ -1,0 +1,53 @@
+
+header{
+    height: 148px;
+}
+#logo{
+    float: left;
+    margin-right: 5px;
+}
+
+
+/* remove the defult of nav */
+nav{
+    list-style: none;
+}
+
+h2{
+    margin: 0px ;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+
+}
+h3{
+font-family: 'Permanent Marker', cursive;
+font-size: 8px;
+margin: 0px;
+}
+
+header section{
+    display: inline-block;
+}
+
+#logos{
+    float: right;
+    margin: 25px; 
+}
+#logos img{
+margin: 1px;}
+
+#sec1 {
+    width: 500px;
+    margin-top: 15px;
+
+
+}
+
+#line{
+    background-image: url(/img/hr-img.png);
+    background-repeat: repeat;
+    padding: 5px;
+
+    
+}
