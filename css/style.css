@@ -9,18 +9,18 @@ header{
 
 
 /* remove the defult of nav */
-nav{
+header nav{
     list-style: none;
 }
 
-h2{
+header h2{
     margin: 0px ;
     /* font-family: 'Gloria Hallelujah', cursive; */
     font-size: 25px;
     font-family: 'Lobster', cursive;
 
 }
-h3{
+header h3{
 font-family: 'Permanent Marker', cursive;
 font-size: 8px;
 margin: 0px;
@@ -50,4 +50,151 @@ margin: 1px;}
     padding: 5px;
 
     
+}
+
+
+
+
+/* Amer Work */
+
+
+main section h1{
+    font-size: 40px;
+    margin: 0px;
+}
+
+
+main section h2{
+    color: gray;
+font-family: inherit;
+margin: 0px;
+font-size: small;
+
+}
+
+#print{
+    float: right;
+    margin: 0px;
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+#mainImage{
+
+background-size: cover;
+width: 100%;
+margin-top: 20px;  
+
+}
+
+main p{
+    
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+}
+
+
+ main div {
+    clear: both;
+    background-image: url(/img/list-bg.png);
+    background-size: 100px;
+    padding-bottom: 200px;
+    padding-top: 15px;
+ }
+
+
+
+#list1{
+    float: left;
+    font-size: x-large;
+    margin-left: 300px;
+    padding-bottom: 100px;
+    z-index: 10px;
+    
+
+    
+
+}
+
+#list2{
+    float: right;
+    font-size: x-large;
+    margin-right: 200px;
+    /* margin-bottom: 300px; */
+    /* padding-bottom: 100px; */
+    z-index: 10px;
+   
+
+}
+
+
+
+
+/* the footer */
+
+footer{
+    margin-top: 50px;
+}
+
+
+
+#logo3{
+    float: left;
+    margin: 15px;
+}
+footer section{
+    height: 100px;
+    
+}
+
+footer section h6{
+    margin: 0px ;
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    width: 400px;
+
+}
+footer section h7{
+font-family: 'Permanent Marker', cursive;
+
+}
+
+footer button{
+    /* clear: both; */
+    float: right;
+    font-size: 18px;
+    background-color: peru;
+    padding: 20px 35px 20px 35px;
+    border: 0px;
+    color: white;
+    font-family: 'Lobster', cursive' ;
+}
+
+footer fieldset{
+    margin-top: 45px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    opacity: 25%;
+}
+
+legend{
+    text-align: center ;
+    padding: 0px;
+    margin: 0px ;
+}
+
+#lower{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: gray;
+}
+
+body{
+    margin: 75px;
 }
