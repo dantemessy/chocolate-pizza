@@ -124,17 +124,13 @@ main p{
     float: right;
     font-size: x-large;
     margin-right: 200px;
-    /* margin-bottom: 300px; */
-    /* padding-bottom: 100px; */
+   
     z-index: 10px;
    
 
 }
 
 
-
-
-/* the footer */
 
 footer{
     margin-top: 50px;
@@ -153,7 +149,6 @@ footer section{
 
 footer section h6{
     margin: 0px ;
-    /* font-family: 'Gloria Hallelujah', cursive; */
     font-size: 25px;
     font-family: 'Lobster', cursive;
     width: 400px;
@@ -165,14 +160,15 @@ font-family: 'Permanent Marker', cursive;
 }
 
 footer button{
-    /* clear: both; */
+
     float: right;
     font-size: 18px;
     background-color: peru;
     padding: 20px 35px 20px 35px;
     border: 0px;
     color: white;
-    font-family: 'Lobster', cursive' ;
+    font-family: 'Lobster', 'cursive' ;
+    margin-right: 10px;
 }
 
 footer fieldset{
